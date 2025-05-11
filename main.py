@@ -6,6 +6,8 @@ import time
 import traceback
 import schedule
 from datetime import datetime
+from dotenv import load_dotenv
+load_dotenv()
 
 # Twilio WhatsApp configuration
 TWILIO_SID = os.environ['TWILIO_SID']
